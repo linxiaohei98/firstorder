@@ -44,6 +44,20 @@
 		<script src="./js/jquery.min.js"></script>
 		<script src="./js/bass.js"></script>
 
+		<script>
+			var wHeight = window.innerHeight; //获取初始可视窗口高度
+			window.addEventListener('resize', function(){ //监测窗口大小的变化事件
+			var hh = window.innerHeight; //当前可视窗口高度
+			var viewTop = $(window).scrollTop(); //可视窗口高度顶部距离网页顶部的距离
+			if(wHeight > hh){ //可以作为虚拟键盘弹出事件
+				$(".content").animate({scrollTop:viewTop+100}); //调整可视页面的位置
+			}else{ //可以作为虚拟键盘关闭事件
+				$("content").animate({scrollTop:viewTop-100});
+			}
+			wHeight = hh;
+		});
+		</script>
+
 		<style>
 
 		</style>
@@ -282,7 +296,7 @@
 							周丁
 							<div style="text-align: right;" class="count">
 								<img src="./images/icon05.png" alt="" width="6%">
-								<span id="d1" date-id="972" style="color: #CCC">972</span>
+								<span id="d1" date-id="972" style="color: #CCC;font-weight: 100;">972</span>
 							</div>
 						</h2>
 						<p style="padding: 4px 0">已经加上老师领取视频了，视频里讲的方法非常实用，我按视频里的方法成功加回了老公，他之前两个星期没有回复我信息，我是多大的福气才遇到你们！</p>
@@ -298,7 +312,7 @@
 							夜弦
 							<div style="text-align: right;" class="count">
 								<img src="./images/icon05.png" alt="" width="6%">
-								<span id="d5" date-id="849" style="color: #CCC">849</span>
+								<span id="d5" date-id="849" style="color: #CCC;font-weight: 100;">849</span>
 							</div>
 						</h2>
 						<p style="padding: 4px 0">我加过很多家机构，你们的老师不仅专业还非常有耐心，跟我聊到凌晨12点多，我都不好意思了，给老师发红包也不收，还告诉我很多建议，真的非常靠谱！挽回秘籍非常受用，还在看第二集</p>
@@ -314,7 +328,7 @@
 							八颗小石头
 							<div style="text-align: right;" class="count">
 								<img src="./images/icon05.png" alt="" width="6%">
-								<span id="d5" date-id="842" style="color: #CCC">842</span>
+								<span id="d5" date-id="842" style="color: #CCC;font-weight: 100;">842</span>
 							</div>
 						</h2>
 						<p style="padding: 4px 0">我已经加到老师了，他刚刚跟我语音了一个多小时，真的一针见血切中我的问题所在，领取的挽回秘籍也干货满满，果然专注两性情感的团队。</p><br>
@@ -328,7 +342,7 @@
 							空白格
 							<div style="text-align: right;" class="count">
 								<img src="./images/icon05.png" alt="" width="6%">
-								<span id="d5" date-id="751" style="color: #CCC">751</span>
+								<span id="d5" date-id="751" style="color: #CCC;font-weight: 100;">751</span>
 							</div>
 						</h2>
 						<p style="padding: 4px 0">哎我最近和男朋友的关系真的非常糟糕，已经快分手了，他平时都冷言冷语，我应该怎么办？</p>
@@ -344,7 +358,7 @@
 							孤狼
 							<div style="text-align: right;" class="count">
 								<img src="./images/icon05.png" alt="" width="6%">
-								<span id="d5" date-id="732" style="color: #CCC">732</span>
+								<span id="d5" date-id="732" style="color: #CCC;font-weight: 100;">732</span>
 							</div>
 						</h2>
 						<p style="padding: 4px 0">已经加了微信了，可以通过下吗，我想请教一下情感问题。</p>
@@ -360,7 +374,7 @@
 							刘宏信
 							<div style="text-align: right;" class="count">
 								<img src="./images/icon05.png" alt="" width="6%">
-								<span id="d5" date-id="694" style="color: #CCC">694</span>
+								<span id="d5" date-id="694" style="color: #CCC;font-weight: 100;">694</span>
 							</div>
 						</h2>
 						<p style="padding: 4px 0">特地回来评论一下的，老师很专业解答了我所有的问题，现在我和男朋友和好了，挽回秘籍确实很受用。</p><br>
