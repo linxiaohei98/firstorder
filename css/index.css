@@ -1,0 +1,158 @@
+body {
+	max-width: 750px;
+	margin: auto;
+}
+
+.newddd5 {
+	padding-bottom: 0;
+}
+
+.nfl1 {
+	width: 0.06rem;
+	height: 0.38rem;
+	background-color: #35b26a;
+	float: left;
+}
+
+.nfl2 {
+	float: left;
+	font-size: 0.32rem;
+	color: #333333;
+	margin-left: 0.2rem;
+}
+
+.nteadiv {
+	width: 9.3rem;
+}
+
+.ntea {
+	border: 0.04rem solid #e5e5e5;
+	width: 100%;
+	height: 2.2rem;
+	margin: auto;
+	margin-top: 0.3rem;
+	font-size: 0.28rem;
+}
+
+.nbcsnd3 {
+	width: 100%;
+}
+
+.tbapp {
+	display: inline-block;
+	width: 1.8rem;
+	height: 0.666rem;
+	line-height: 0.666rem;
+	font-size: 0.3733rem;
+	text-align: center;
+	background-color: #35b26a;
+	color: #fff;
+}
+
+.oapv {
+	width: 9.3rem;
+	text-align: right;
+	margin-top: 0.3rem;
+}
+
+.nlipp {
+	border-bottom: none!important;
+}
+
+.nfl3 {
+	float: right;
+	margin-right: 0.25rem;
+	font-size: 0.32rem;
+	color: #818181;
+}
+
+.nfl3 a {
+	font-size: 0.32rem;
+	color: red;
+}
+
+.nfl3a1 {
+	margin-right: 0.35rem;
+}
+
+.dlmodel {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*background-color: #333333;*/
+	/*display: table-cell;*/
+	/*vertical-align: middle;*/
+	z-index: 9999999;
+	display: none;
+}
+
+.dlmodeld1 {
+	border-radius: 20px;
+	width: 10rem;
+	height: 6rem;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #f4f4f4;
+}
+
+.dlmodeld2 {
+	width: 6.7rem;
+	margin: auto;
+}
+
+.dlmodeld2p1 {
+	font-size: 0.32rem;
+	color: #000;
+	margin-top: 0.65rem;
+	margin-bottom: 0.25rem;
+}
+
+.dlmodeld2p2 input,
+.dlmodeld2p4 input {
+	width: 6.7rem;
+	height: 0.88rem;
+	border: 1px solid #e5e5e5;
+	font-size: 0.32rem;
+}
+
+.dlmodeld2p3 {
+	font-size: 0.32rem;
+	color: #000;
+	margin-top: 0.35rem;
+	margin-bottom: 0.25rem;
+}
+
+.dlmodeld2p5 {
+	text-align: center;
+	margin-top: 0.65rem;
+}
+
+.dlmodeld2p5 button {
+	width: 5.4rem;
+	height: 0.88rem;
+	background-color: #0aba07;
+	border: 1px solid #0aba07;
+	color: #fff;
+	font-size: 0.32rem;
+}
+
+.info {
+	padding: 6px 0;
+}
+
+.info>input {
+	width: 60%;
+	padding: 8px;
+	border-radius: 5px;
+	background-color: ghostwhite;
+	border: 1px solid gainsboro;
+}
+#copy_btn:hover{
+	cursor:pointer
+}
